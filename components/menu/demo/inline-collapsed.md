@@ -46,18 +46,7 @@ class App extends React.Component {
           theme="dark"
           inlineCollapsed={this.state.collapsed}
         >
-          <Menu.Item key="1">
-            <Icon type="pie-chart" />
-            <span>Option 1</span>
-          </Menu.Item>
-          <Menu.Item key="2">
-            <Icon type="desktop" />
-            <span>Option 2</span>
-          </Menu.Item>
-          <Menu.Item key="3">
-            <Icon type="inbox" />
-            <span>Option 3</span>
-          </Menu.Item>
+          
           <SubMenu key="sub1" title={<span><Icon type="mail" /><span>Navigation One</span></span>}>
             <Menu.Item key="5">Option 5</Menu.Item>
             <Menu.Item key="6">Option 6</Menu.Item>
